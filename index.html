@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tic-Tac-Toe</title>
+	<meta description="FreeCodeCamp: Tic-Tac-Toe Game" />
+	<!-- FACEBOOK -->
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="VinayPuppal">
+	<meta property="og:url" content="https://www.vinaypuppal.com">
+	<meta property="og:image" content="https://res.cloudinary.com/vinaypuppal/image/upload/v1465257273/fcc/portifolio-ui.png">
+	<meta property="og:site_name" content="VinayPuppal">
+	<meta property="og:description" content="Portfolio Page: VinayPuppal">
+	<meta property="fb:app_id" content="1110213405717341">
+	<!-- TWITTER -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@vinaypuppal">
+	<meta name="twitter:title" content="VinayPuppal">
+	<meta name="twitter:description" content="Portfolio Page: VinayPuppal">
+	<meta name="twitter:image:src" content="https://res.cloudinary.com/vinaypuppal/image/upload/v1465257273/fcc/portifolio-ui.png">
+	
+	<!-- favicons -->
+	<link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-touch-icon-57x57.png?v=7kkBEKw5XN">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-touch-icon-60x60.png?v=7kkBEKw5XN">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-touch-icon-72x72.png?v=7kkBEKw5XN">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-touch-icon-76x76.png?v=7kkBEKw5XN">
+	<link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-touch-icon-114x114.png?v=7kkBEKw5XN">
+	<link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-touch-icon-120x120.png?v=7kkBEKw5XN">
+	<link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-touch-icon-144x144.png?v=7kkBEKw5XN">
+	<link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-touch-icon-152x152.png?v=7kkBEKw5XN">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon-180x180.png?v=7kkBEKw5XN">
+	<link rel="icon" type="image/png" href="favicons/favicon-32x32.png?v=7kkBEKw5XN" sizes="32x32">
+	<link rel="icon" type="image/png" href="favicons/android-chrome-192x192.png?v=7kkBEKw5XN" sizes="192x192">
+	<link rel="icon" type="image/png" href="favicons/favicon-96x96.png?v=7kkBEKw5XN" sizes="96x96">
+	<link rel="icon" type="image/png" href="favicons/favicon-16x16.png?v=7kkBEKw5XN" sizes="16x16">
+	<link rel="manifest" href="favicons/manifest.json?v=7kkBEKw5XN">
+	<link rel="mask-icon" href="favicons/safari-pinned-tab.svg?v=7kkBEKw5XN" color="#82949d">
+	<link rel="shortcut icon" href="favicons/favicon.ico?v=7kkBEKw5XN">
+	<meta name="apple-mobile-web-app-title" content="VinayPuppal">
+	<meta name="application-name" content="VinayPuppal">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="favicons/mstile-144x144.png?v=7kkBEKw5XN">
+	<meta name="msapplication-config" content="favicons/browserconfig.xml?v=7kkBEKw5XN">
+	<meta name="theme-color" content="#82949d">
+
+	<!-- css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.1/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<div class="container">
+	<header>
+		<h1>Tic-Tac-Toe Game</h1>
+	</header>
+	<div class="players">
+		<div class="player x">Player X: <span class="value">N/A</span></div>
+		<div class="player o">Player O: <span class="value">N/A</span></div>
+	</div>
+	<div class="info">
+		Loading.....
+	</div>
+	<ul class="board">
+		<li id="00" class="cell"></li>
+		<li id="01" class="cell"></li>
+		<li id="02" class="cell"></li>
+		<li id="10" class="cell"></li>
+		<li id="11" class="cell"></li>
+		<li id="12" class="cell"></li>
+		<li id="20" class="cell"></li>
+		<li id="21" class="cell"></li>
+		<li id="22" class="cell"></li>
+	</ul>
+	<div class="button-container">
+		<a id="restart" href="#">Restart</a>
+	</div>
+	<footer>
+		<p>Made with <i class='fa fa-heart-o'></i> By Vinaypuppal</p>
+	</footer>
+</div>
+
+<div class="player-selection">
+	<div class="content">
+		<h1>Please Select Any One Letter</h1>
+		<div class="letters">
+			<a id='x' href="#">X</a>
+			
+			<a id='o' href="#">O</a>
+		</div>
+		<div class="note">Note: If you select 'O' please wait some time its loading....</div>
+	</div>
+	<div class="loading"><i class="fa fa-spinner fa-spin"></i></div>
+</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>
